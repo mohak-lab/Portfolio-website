@@ -1,0 +1,44 @@
+@mixin img_gallary {
+    height: 320px;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.5;
+    // background-color: black;
+}
+
+@mixin heading_position {
+    position: relative;
+    bottom: 200px;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow:  1px 3px 5px rgba(0, 0, 0, 1);;
+}
+
+@mixin position_img {
+    left: 0;
+    right: 0;
+    top: -2rem;
+    bottom: 0;
+}
+
+@mixin position_img_down {
+    left: 0;
+    right: 0;
+    top: 30rem;
+    bottom: 0;
+}
+
+@mixin hover_effect {
+    transform: translate(0, -20px); 
+    // background: rgba(0, 0, 0, 1);
+}
+
+@mixin items {
+    display: inline-block;
+    width: 600px;
+    height: 100%;
+    outline: 5px solid black;
+    padding: 1em;
+    box-sizing: border-box;
+}

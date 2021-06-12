@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohak's | MyProfile</title>
+    <link rel="stylesheet" href="/scss/main.css">
+    <!-- font awesome cdn file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- header section -->
+    <div class="profile_section" id="scroll">
+        <a class="btn" href="index.html">
+            <div class="after"></div>
+            <div class="before"></div>
+        </a>
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-6">
+                    <img src="" alt="img">
+                </div> -->
+
+                <div class="col-lg-12">
+                    <ul>
+                        <li><h1>Hi, I' Am</h1></li>
+                        <li><span>Mohak Singh Bhal</span></li>
+                        <li><p>Web and Competitive Programmer, Developer</p></li>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/Mohaksingh14" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section  ends-->
+
+    <!-- contact section  -->
+        <div class="contact_section about_section">   
+            <h1>Contact with me</h1>
+            <div class="container">
+                <div class="row">
+                    <form action="/contact" method="POST">
+                        <div class="col-md-6 form-group">
+                            <input name="name" type="text" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        
+                        <div class="col-md-6 form-group">
+                            <input name="email" type="email" class="form-control" placeholder="Any Email" required>
+                        </div>
+
+                        <div class="col-md-12 form-group">
+                            <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+
+                        <div class="col-md-12 form-group">
+                            <textarea name="message" type="text" id="" cols="10" rows="7" class="form-control" placeholder="Leave Message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+         </div>
+    <!-- contact section ends -->
+
+
+<!-- footer section  -->
+    <div class="row">
+        <div class="column box_1">
+            <div class="box_shadow">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Not available</p>
+            </div>
+        </div>
+        <div class="column box_2">
+            <div class="box_shadow">
+                <i class="fas fa-phone-square-alt"></i>
+                <p>+91-6376382153</p>
+            </div>
+        </div>
+        <div class="column box_3">
+            <div class="box_shadow">
+                <i class="fas fa-envelope-open"></i>
+                <p>mohak1802bhal@gmail.com</p>
+                <p>mohak143m@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</div>   
+
+    <footer class="footer_section">
+        <div>
+            Copyright &copy;
+            <a href="#scroll"><i class="fas fa-angle-up"></i></a>   
+        </div> 
+    </footer>
+<!-- footer section ends   -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: ".profile_section",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xed0552,
+  backgroundColor: 0x0,
+  maxDistance: 20.00,
+  spacing: 20.00
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/main.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Mohak</title>
+</head>
+<body>
+
+<!-- main section -->
+    <div class="main_page">
+        <div class="row no-gutters">
+            <div class="col-md-6 no-gutters col-xs-12">
+                <div class="split left">
+                    <h1>Hi, I' Am <span></span></h1>
+                    <p>Full Stack Developer, Competitive Programmer</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 no-gutters">
+                <div class="split right">
+                    <div class="col-md-6 col-sm-6 no-gutters">
+                       <div class="split_four top_left">
+                                <img src="/images/profile.jpg" alt="img">
+                                <a href="profile.html"><h1>Profile</h1></a>  
+                       </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 no-gutters">
+                        <div class="split_four top_right">
+                            <img src="/images/resume.jpg" alt="img">
+                            <a href="resume.html"><h1>Resume</h1></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6 no-gutters">
+                        <div class="split_four bottom_left">
+                            <img src="/images/portfolio.jpg" alt="img">
+                            <a href="portfolio.html"><h1>Portfolio</h1></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6 no-gutters">
+                        <div class="split_four bottom_right">
+                            <img src="/images/contact.jpg" alt="">
+                            <a href="contact.html"><h1>Contact</h1></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- main section ends -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+<script>
+VANTA.TOPOLOGY({
+    el: ".left",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xed0552,
+    backgroundColor: 0x0
+});
+</script>
+
+</body>
+</html>
